@@ -10,6 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
     "image-trace-loader": "^1.0.2",
     "imagemin-gifsicle": "^7.0.0",
     "imagemin-mozjpeg": "^9.0.0",
@@ -23,6 +25,7 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "responsive-loader": "^2.3.0",
+    "sass": "^1.37.2",
     "svg-sprite-loader": "^6.0.9",
     "swiper": "^6.7.1",
     "webp-loader": "^0.6.0"
