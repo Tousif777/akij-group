@@ -1,0 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.swiper-slide > img {
+    display: block;
+    vertical-align: top;
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
