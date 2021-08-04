@@ -35,6 +35,12 @@
 
 @media screen and (max-width: 768px) {
   .testimonial {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .testimonial {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }
