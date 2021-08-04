@@ -1,9 +1,8 @@
 .car__wrapper {
   margin: 20px 0;
   background: #fff;
-  padding: 30px 0 50px 0;
+  padding: 30px 15px 50px 15px;
   min-height: 50vh;
-  overflow: hidden;
 }
 
 .headline {
