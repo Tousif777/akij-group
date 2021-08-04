@@ -3,7 +3,6 @@ import TermsHeader from "./TermsHeader";
 import TermsDataShow from "./TermsDataShow";
 import { TermsData } from "./TermsData";
 import { Container, Typography } from "@material-ui/core";
-import styles from "./TermsConditions.module.scss";
 const TermsConditions = () => {
   return (
     <div>
