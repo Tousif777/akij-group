@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper p {
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+  color: #14478d;
+  padding: 10px;
+}
+
+.player {
+  position: relative;
+  width: 500px;
+  height: 300px;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

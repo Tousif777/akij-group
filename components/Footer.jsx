@@ -1,9 +1,9 @@
 import Image from 'next/image';
+import Link from 'next/link'
 
 const Footer = () => {
     const date = new Date();
     const year = date.getFullYear();
-    console.log(year);
     return (
         <footer className="bg-akij-blue bg-gradient-to-br from-akij-blue to-akij-lblue">
             <div className="w-full">
@@ -43,7 +43,7 @@ const Footer = () => {
                             <ul className="text-xs capitalize tracking-wider leading-6 font-medium text-white ">
                                 <li className="hover:text-akij-red"><a href="/blog">Blog</a></li>
                                 <li className="hover:text-akij-red"><a href="/blog">Community</a></li>
-                                <li className="hover:text-akij-red"><a href="/blog">FAQ</a></li>
+                                <li className="hover:text-akij-red"><Link href="/faq">FAQ</Link></li>
                                 <li className="hover:text-akij-red"><a href="/blog">Site Map</a></li>
                             </ul>
                         </div>
@@ -58,8 +58,8 @@ const Footer = () => {
                         <div className="py-3 flex-1 md:flex-auto md:w-auto ml-10">
                             <h1 className="capitalize md:uppercase py-2 text-white font-bold">Links</h1>
                             <ul className="text-xs capitalize tracking-wider leading-6 font-medium text-white">
-                                <li className="hover:text-akij-red"><a href="#">Terms</a></li>
-                                <li className="hover:text-akij-red"><a href="#">Privacy</a></li>
+                                <li className="hover:text-akij-red"><Link href="/terms">Terms</Link></li>
+                                <li className="hover:text-akij-red"><Link href="/privacy-policy">Privacy</Link></li>
                                 <li className="hover:text-akij-red"><a href="#">Dealer</a></li>
                                 <li className="hover:text-akij-red"><a href="#">Career</a></li>
                             </ul>

@@ -1,0 +1,14 @@
+.featured__card {
+  background: #fff;
+  border: 1px solid #aaaa;
+  padding: 20px;
+  margin: 0 10px;
+}
+
+.featured__card__title {
+  padding: 10px;
+  background: #14478d;
+  margin: 15px 0 0 0;
+  color: #fff;
+  text-align: center;
+}
