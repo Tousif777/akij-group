@@ -28,8 +28,8 @@ const PlayerSection = () => {
         <p>
           AKIJ MOTORS, one of the biggest auto mobile companies in Bangladesh.
           It has been working since 2016 with trust & reputation. Akij Motors
-          solely believe in total customer satisfaction with "Trust & Mutual
-          Benifit". The mission is to
+          solely believe in total customer satisfaction with `Trust & Mutual
+          Benefit`. The mission is to
         </p>
       </div>
     </div>
