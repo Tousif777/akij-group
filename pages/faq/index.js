@@ -7,7 +7,7 @@ const index = () => {
   return (
     <Layout>
       <Head>
-        <title>Akij Motors Faq - Best Motor Company in Bangladesh</title>
+        <title>Akij Motors | Faq</title>
       </Head>
       <div>
         <FaqHeader />
